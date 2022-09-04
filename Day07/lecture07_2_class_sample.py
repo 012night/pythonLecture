@@ -265,3 +265,41 @@
 # cal_child_change = Calculator_child_change(20,0)
 # print(cal_child_change.div())
 # =======================================================================================
+
+
+# =======================================================================================
+# # super()
+# # Weapone 클래스 정의
+# class Weapone:
+#     def __init__(self):
+#         self.what = "무기"
+#         self.type = "근거리"
+#     print("나는 무기 클래스다!")
+
+# # Sword 클래스 정의 : Weapone 클래스 상속
+# class Sword(Weapone):
+#     def __init__(self, power, level):
+#         self.power = power
+#         self.level = level
+
+# # Sword 클래스 정의 : Weapone 클래스 상속 후 생성자 상속 super()
+# class Sword(Weapone):
+#     def __init__(self, power, level):
+#         super().__init__()
+#         self.power = power
+#         self.level = level
+
+# # Sword 속성(power,level) 및 부모 클래스 Weapon 의 속성 불러오기(what, type)
+#     def info(self):
+#         print("무기종류 :", self.what)
+#         print("공격타입 :", self.type)
+#         print("공 격 력 :", self.power)
+#         print("레    벨 :", self.level)
+
+# # Sword 클래스 객체 short_sword 선언
+# short_sword = Sword(10, 20)
+# short_sword.info()
+# =======================================================================================
+
+def add_sample(x, y) :
+    return x+y
