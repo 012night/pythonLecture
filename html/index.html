@@ -1,0 +1,91 @@
+<!-- 대부분의 웹사이트는 HTML(markup language)로 작성. 웹사이트에 방문하면 웹사이트가 구동되고 있는 서버는 그 페이지의 HTML문서를 보내준다. 사용자의 웹 브라우저는
+HTML문서를 해독하고 그 결과를 화면으로 재 구성하여 보여준다. 이처럼 HTML문서는 글씨, 크기, 모양, 그림 등의 정보를 텍스트 형태로 담고 있다. HTML 문서를 만드는 것은 어렵지 않다.
+File -->
+<!doctype html>
+<html>
+    <!-- <head>태그 문서에 대한 기본 정보를 담는다 -->
+        <head>
+            <meta charset="utf-8">
+            <!-- <title>브라우저 위에 나타나는 제목 -->
+            <title>메가스터디 HTML 페이지</title>
+            <!-- <link href=".//test_css.css" rel="stylesheet" type="text/css"> -->
+            <!-- <style>
+                nav {background-color:black; font-size: 150%; text-align: center}
+                nav a {color: gold}
+                h1 {color:red}
+            </style> -->
+        </head>
+        <!-- <body>주로 화면에 나타나는 내용이 담겨있다 -->
+        <body>
+            <!-- <nav>웹 사이트의 주요 페이지를 안내하는 네비게이션 역할 -->
+            <nav>
+                <a href="./index.html">Home</a>
+                <a href="./about_me.html">About Me</a>
+                <a href="https://www.naver.com/">네이버 바로가기</a>
+            <!-- <nav style="background-color: black; font-size: 150%; text-align: center">
+                <a href="./index.html" style="color: white">Home</a>
+                <a href="./about_me.html" style="color: white">About Me</a>
+                <a href="https://www.naver.com/" style="color: white">네이버 바로가기</a> -->
+            </nav>
+            <!-- <h#>헤드라인을 작성 -->
+            <h1>h1 태그의 사이즈</h1>
+            <h2>h2 태그의 사이즈</h2>
+            <h3>h3 태그의 사이즈</h3>
+            <h4>h4 태그의 사이즈</h4>
+            <h5>h5 태그의 사이즈</h5>
+
+            <p>p태그는 일반적인 문장을 작성할 때 사용합니다.</p>
+            <hr>
+            <img src="C:\chi_py_project\pic_test.jpg" width="400px" heigth="100px">
+            <hr>
+            
+            <h1>표 만들기</h1>
+            <table>
+                <tr>
+                    <td> 내용 1 </td>
+                    <td> 내용 2 </td>
+                    <td> 내용 3 </td>
+                </tr>
+                <tr>
+                    <td> 내용 4 </td>
+                    <td> 내용 5 </td>
+                    <td> 내용 6 </td>
+                </tr>
+            </table>
+
+
+            <h1>strong/b태그 그리고 em태크를 이용하여 문자를 강조</h1>
+            <strong><em>em 태그로 이탤릭체 표현하기</em></strong> <br>
+            <b><i> i 태그로 이탤릭체 표현하기 <i></b> <br>
+
+            <h1>순서가 있는 목차</h1>
+            <ol type="i">
+                <li> 예습 </li>
+                <li> 복습 </li>
+            </ol>
+
+            <h1>순서가 없는 목차</h1>
+            <ul>
+                <li>목차1</li>
+                <li>목차2</li>
+                <li>목차3</li>
+                <li>목차4</li>
+            </ul>
+
+            <h1>ol과 ul을 조합한 목차</h1>
+            <ul>
+                <li> 음료
+                    <ol type="1">
+                        <li> 환타
+                        <li> 소주
+                    </ol>
+                </li> <br>
+                <li> 과자
+                    <ol type="i" start="3">
+                        <li> 홈런볼
+                        <li> 몽쉘
+                    </ol>
+                </li>
+            </ul>
+        </body>
+</html>
