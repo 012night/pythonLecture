@@ -204,15 +204,16 @@
 # ========================================================================
 
 # ========================================================================
-# # while문 Final test02
+# while문 Final test02
 # msg = '''비 갠 뒤에 비애 대신 a happy end\n 비스듬히 씩 비웃듯 칠색 무늬의 무지개\n 철없이 철 지나 철들지 못해 (still)'''
-# # msg_list = msg.split(" ")
-# msg_list = msg.replace("\n"," ").split(" ")
-# print(msg_list)
-# num = 0
-# while num < len(msg_list) :
-#     print(msg_list[num])
-#     num += 1
+msg = '비 갠 뒤에 비애 대신 a happy end\n 비스듬히 씩 비웃듯 칠색 무늬의 무지개\n 철없이 철 지나 철들지 못해 (still)'
+# msg_list = msg.split(" ")
+msg_list = msg.replace("\n","").split(" ")
+print(msg_list)
+num = 0
+while num < len(msg_list) :
+    print(msg_list[num])
+    num += 1
 
-# print("단어 개수 : ", len(msg_list))
+print("단어 개수 : ", len(msg_list))
 # ========================================================================

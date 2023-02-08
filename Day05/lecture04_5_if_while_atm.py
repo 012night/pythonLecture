@@ -39,6 +39,7 @@ while run:
         print(id2, "로그인 중...")
     else:
         print("로그아웃")
+    print("="*20)
 
     print("1.로그인")
     print("2.로그아웃")
@@ -138,5 +139,6 @@ while run:
         else:
             print("로그인 후 이용해주세요.")
     elif choice == 0:
-        run = False
+        # run = False
         print("프로그램 종료")
+        break
