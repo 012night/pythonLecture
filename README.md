@@ -1,2 +1,0 @@
-# pythonLecture
-pythonCode
